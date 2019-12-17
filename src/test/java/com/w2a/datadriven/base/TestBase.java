@@ -21,7 +21,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
+import com.w2a.utilities.ExtentManager;
+
+import junit.framework.Assert;
 
 public class TestBase {
 	
@@ -45,6 +50,10 @@ public class TestBase {
 	public FileInputStream fis;
 	public Logger log=Logger.getLogger("devpinoyLogger");
 	public WebDriverWait wait;
+	public ExtentReports rep=ExtentManager.getInstance();
+	public ExtentTest test;
+	
+	public static ThreadLocal<ExtentTest> exTest=new ThreadLocal<ExtentTest>();
 	
 	@BeforeSuite
 	public void setUp() {
@@ -86,6 +95,23 @@ public class TestBase {
 		dr.set(driver);
 	}
 	
+	public ExtentTest getExtentTest() {
+		return exTest.get();
+	}
+	
+	public void setExtentTest(ExtentTest et) {
+		exTest.set(et);
+	}
+	
+	public void reportPass(String msg) {
+		getExtentTest().log(LogStatus.PASS, msg);
+	}
+	
+	public void reportFailure(String msg) {
+		test.log(LogStatus.FAIL, msg);
+		Assert.fail(msg);
+	}
+	
 	public void openBrowser(String browser) throws MalformedURLException {
 		
 		DesiredCapabilities cap=null;
@@ -106,12 +132,14 @@ public class TestBase {
 		setDriver(driver);
 		getDriver().manage().timeouts().implicitlyWait(Integer.parseInt(Config.getProperty("implicit.wait")), TimeUnit.SECONDS);
 		driver.manage().window().maximize();
+		getExtentTest().log(LogStatus.INFO, "Browser Opened Successfully " + browser);
 		
 		
 	}
 	
 	public void navigate (String url) {
 		getDriver().get(Config.getProperty(url));
+		getExtentTest().log(LogStatus.INFO, "Nevigating to " + Config.getProperty(url));
 		
 	}
 	
