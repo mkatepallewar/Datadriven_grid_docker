@@ -55,7 +55,6 @@ public class TestBase {
 	
 	public static ThreadLocal<ExtentTest> exTest=new ThreadLocal<ExtentTest>();
 	
-	@BeforeSuite
 	public void setUp() {
 		
 		if (driver==null) {

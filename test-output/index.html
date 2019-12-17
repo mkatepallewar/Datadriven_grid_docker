@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-BankManagerSuite">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -110,6 +110,16 @@
                         <a href="#" class="method navigator-link" panel-name="suite-BankManagerSuite" title="com.w2a.suite.bankmanager.testcases.AddCustomerTest" hash-for-method="addCustomerTest({browser=chrome, postcode=P6767, Runmode=Y, lastname=k, firstname=manish})">addCustomerTest({browser=chrome, postcode=P6767, Runmode=Y, lastname=k, firstname=manish})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BankManagerSuite" title="com.w2a.suite.bankmanager.testcases.OpenAccountTest" hash-for-method="openAccountTest({currency=Rupee, browser=chrome, Runmode=Y, customer=manish k})">openAccountTest({currency=Rupee, browser=chrome, Runmode=Y, customer=manish k})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BankManagerSuite" title="com.w2a.suite.bankmanager.testcases.OpenAccountTest" hash-for-method="openAccountTest({currency=Dollar, browser=firefox, Runmode=Y, customer=jyoti k})">openAccountTest({currency=Dollar, browser=firefox, Runmode=Y, customer=jyoti k})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-BankManagerSuite -->
                   </li>
                 </ul>
@@ -122,6 +132,30 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-BankManagerSuite" class="panel BankManagerSuite">
+          <div class="suite-BankManagerSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.w2a.suite.bankmanager.testcases.OpenAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openAccountTest({currency=Rupee, browser=chrome, Runmode=Y, customer=manish k})">
+                  </a> <!-- openAccountTest({currency=Rupee, browser=chrome, Runmode=Y, customer=manish k}) -->
+                  <span class="method-name">openAccountTest</span>
+                  <span class="parameters">({currency=Rupee, browser=chrome, Runmode=Y, customer=manish k})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openAccountTest({currency=Dollar, browser=firefox, Runmode=Y, customer=jyoti k})">
+                  </a> <!-- openAccountTest({currency=Dollar, browser=firefox, Runmode=Y, customer=jyoti k}) -->
+                  <span class="method-name">openAccountTest</span>
+                  <span class="parameters">({currency=Dollar, browser=firefox, Runmode=Y, customer=jyoti k})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BankManagerSuite-class-passed -->
           <div class="suite-BankManagerSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -156,11 +190,16 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;BankManagerSuite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;AddCustomertest&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;AddCustomertest&quot; parallel=&quot;tests&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.w2a.suite.bankmanager.testcases.AddCustomerTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- AddCustomertest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;OpenAccountTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.w2a.suite.bankmanager.testcases.OpenAccountTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- OpenAccountTest --&gt;
 &lt;/suite&gt; &lt;!-- BankManagerSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -173,6 +212,9 @@
             <ul>
               <li>
                 <span class="test-name">AddCustomertest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">OpenAccountTest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -198,20 +240,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addCustomerTest')
 data.setCell(0, 2, 'com.w2a.suite.bankmanager.testcases.AddCustomerTest')
-data.setCell(0, 3, 5486);
+data.setCell(0, 3, 4914);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'addCustomerTest')
-data.setCell(1, 2, 'com.w2a.suite.bankmanager.testcases.AddCustomerTest')
-data.setCell(1, 3, 3982);
+data.setCell(1, 1, 'openAccountTest')
+data.setCell(1, 2, 'com.w2a.suite.bankmanager.testcases.OpenAccountTest')
+data.setCell(1, 3, 4191);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addCustomerTest')
+data.setCell(2, 2, 'com.w2a.suite.bankmanager.testcases.AddCustomerTest')
+data.setCell(2, 3, 3458);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'openAccountTest')
+data.setCell(3, 2, 'com.w2a.suite.bankmanager.testcases.OpenAccountTest')
+data.setCell(3, 3, 2764);
 window.suiteTableData['BankManagerSuite']= { tableData: data, tableDiv: 'times-div-BankManagerSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
               <div id="times-div-BankManagerSuite">
               </div> <!-- times-div-BankManagerSuite -->
             </div> <!-- times-div -->
@@ -238,25 +288,40 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.w2a.suite.bankmanager.testcases.AddCustomerTest</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">addCustomerTest({browser=chrome, postcode=P6767, Runmode=Y, lastname=k, firstname=manish})</span>
-                <span class="method-start">380 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">addCustomerTest({browser=firefox, postcode=X7878, Runmode=Y, lastname=k, firstname=jyoti})</span>
-                <span class="method-start">380 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">4364 ms</span>
+                <span class="method-start">3461 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">5867 ms</span>
+                <span class="method-start">4916 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.w2a.suite.bankmanager.testcases.OpenAccountTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">openAccountTest({currency=Dollar, browser=firefox, Runmode=Y, customer=jyoti k})</span>
+                <span class="method-start">5082 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">openAccountTest({currency=Rupee, browser=chrome, Runmode=Y, customer=manish k})</span>
+                <span class="method-start">5082 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7847 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9274 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
