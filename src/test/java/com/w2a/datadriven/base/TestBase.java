@@ -81,14 +81,13 @@ public class TestBase {
 
 		try {
 			FileUtils.copyFile(srcFile,
-					new File(System.getProperty("user.dir") + "\\target\\surefire-reports\\html\\" + screenShotName));
+					new File(System.getProperty("user.dir") + "\\reports\\" + screenShotName));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
-		getExtentTest().log(LogStatus.INFO, " Screen Shot -->" + test.addScreenCapture(
-				System.getProperty("user.dir") + "\\target\\surefire-reports\\html\\" + screenShotName));
+		getExtentTest().log(LogStatus.INFO, " Screen Shot -->" + test.addScreenCapture(System.getProperty("user.dir") + "\\reports\\" +screenShotName));
 	}
 
 	public void setUp() {

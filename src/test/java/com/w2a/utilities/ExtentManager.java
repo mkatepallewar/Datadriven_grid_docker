@@ -15,8 +15,8 @@ public class ExtentManager {
 		if (extent==null) {
 			
 			Date d=new Date();
-			String fileName=d.toString().replace(":", "_").replace(" ","_")+".html";
-			extent=new ExtentReports(System.getProperty("user.dir")+"\\report\\"+fileName,true,DisplayOrder.OLDEST_FIRST);
+			String fileName="jenkins_"+d.toString().replace(":", "_").replace(" ","_")+".html";
+			extent=new ExtentReports(System.getProperty("user.dir")+"\\reports\\"+fileName,true,DisplayOrder.OLDEST_FIRST);
 			extent.loadConfig(new File (System.getProperty("user.dir") + "\\src\\test\\resources\\extentConfig\\ReportConfig.xml"));
 		}
 		return extent;
