@@ -1,0 +1,84 @@
+19:27:28,691 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : f667d422bfaa Browser : firefox Clicking on an element : bmlBtn_CSS
+19:27:29,226 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : f667d422bfaa Browser : firefox Clicking on an element : addCustBtn_CSS
+19:27:29,485 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : f667d422bfaa Browser : firefox Typing in an element : firstName_CSS
+19:27:29,706 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : f667d422bfaa Browser : firefox Typing in an element : lastName_XPATH
+19:27:30,114 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : f667d422bfaa Browser : firefox Typing in an element : postCode_CSS
+19:27:30,480 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : f667d422bfaa Browser : firefox Clicking on an element : addBtn_CSS
+19:27:30,501 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+19:27:30,502 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+19:27:30,503 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+19:27:30,504 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+19:27:30,504 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Manish_Katepallewar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+19:27:31,613 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : 32114a1a67a2 Browser : firefox Clicking on an element : bmlBtn_CSS
+19:27:31,882 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : 32114a1a67a2 Browser : firefox Clicking on an element : addCustBtn_CSS
+19:27:32,048 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : 83f8cf9c7cdd Browser : firefox Clicking on an element : bmlBtn_CSS
+19:27:32,094 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : 32114a1a67a2 Browser : firefox Typing in an element : firstName_CSS
+19:27:32,183 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : 32114a1a67a2 Browser : firefox Typing in an element : lastName_XPATH
+19:27:32,311 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : 83f8cf9c7cdd Browser : firefox Clicking on an element : addCustBtn_CSS
+19:27:32,343 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : 32114a1a67a2 Browser : firefox Typing in an element : postCode_CSS
+19:27:32,568 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : 83f8cf9c7cdd Browser : firefox Typing in an element : firstName_CSS
+19:27:32,695 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : 83f8cf9c7cdd Browser : firefox Typing in an element : lastName_XPATH
+19:27:32,785 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : 32114a1a67a2 Browser : firefox Clicking on an element : addBtn_CSS
+19:27:32,788 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+19:27:32,788 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+19:27:32,788 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+19:27:32,789 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+19:27:32,789 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Manish_Katepallewar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+19:27:32,890 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : 83f8cf9c7cdd Browser : firefox Typing in an element : postCode_CSS
+19:27:33,092 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : 83f8cf9c7cdd Browser : firefox Clicking on an element : addBtn_CSS
+19:27:33,094 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+19:27:33,094 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+19:27:33,094 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+19:27:33,095 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+19:27:33,095 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Manish_Katepallewar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+19:27:40,940 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : ada40825de76 Browser : firefox Clicking on an element : bmlBtn_CSS
+19:27:42,306 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : ada40825de76 Browser : firefox Clicking on an element : addCustBtn_CSS
+19:27:42,626 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : ada40825de76 Browser : firefox Typing in an element : firstName_CSS
+19:27:42,801 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : ada40825de76 Browser : firefox Typing in an element : lastName_XPATH
+19:27:42,832 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : 58886f08fa9c Browser : firefox Clicking on an element : bmlBtn_CSS
+19:27:42,951 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : ada40825de76 Browser : firefox Typing in an element : postCode_CSS
+19:27:43,048 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : 58886f08fa9c Browser : firefox Clicking on an element : addCustBtn_CSS
+19:27:43,333 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : ada40825de76 Browser : firefox Clicking on an element : addBtn_CSS
+19:27:43,334 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+19:27:43,334 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+19:27:43,335 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+19:27:43,335 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+19:27:43,335 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Manish_Katepallewar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+19:27:43,342 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : 58886f08fa9c Browser : firefox Typing in an element : firstName_CSS
+19:27:43,572 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : 58886f08fa9c Browser : firefox Typing in an element : lastName_XPATH
+19:27:43,809 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : 58886f08fa9c Browser : firefox Typing in an element : postCode_CSS
+19:27:43,889 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : a99873dbb094 Browser : firefox Clicking on an element : bmlBtn_CSS
+19:27:43,930 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : 58886f08fa9c Browser : firefox Clicking on an element : addBtn_CSS
+19:27:43,931 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+19:27:43,932 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+19:27:43,932 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+19:27:43,932 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+19:27:43,932 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Manish_Katepallewar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+19:27:44,100 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : a99873dbb094 Browser : firefox Clicking on an element : addCustBtn_CSS
+19:27:44,564 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : a99873dbb094 Browser : firefox Typing in an element : firstName_CSS
+19:27:44,619 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : a99873dbb094 Browser : firefox Typing in an element : lastName_XPATH
+19:27:44,683 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : a99873dbb094 Browser : firefox Typing in an element : postCode_CSS
+19:27:45,051 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : a99873dbb094 Browser : firefox Clicking on an element : addBtn_CSS
+19:27:45,052 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+19:27:45,053 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+19:27:45,053 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+19:27:45,053 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+19:27:45,053 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Manish_Katepallewar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+19:27:52,518 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : cdc06d3f0c35 Browser : chrome Clicking on an element : bmlBtn_CSS
+19:27:53,211 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : f2a38fc40de0 Browser : chrome Clicking on an element : bmlBtn_CSS
+19:27:53,694 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : f2a38fc40de0 Browser : chrome Clicking on an element : openaccount_CSS
+19:27:54,007 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : cdc06d3f0c35 Browser : chrome Clicking on an element : openaccount_CSS
+19:28:06,506 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : 2a0899d6e334 Browser : chrome Clicking on an element : bmlBtn_CSS
+19:28:06,756 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : 2a0899d6e334 Browser : chrome Clicking on an element : openaccount_CSS
+19:28:14,698 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : f2a38fc40de0 Browser : chrome Clicking on an element : process_CSS
+19:28:14,699 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+19:28:14,700 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+19:28:14,700 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+19:28:14,700 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+19:28:14,700 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Manish_Katepallewar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+19:28:15,044 DEBUG devpinoyLogger<strong>{1}</strong>:60 - Thread : cdc06d3f0c35 Browser : chrome Clicking on an element : process_CSS
+19:28:15,045 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+19:28:15,045 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+19:28:15,046 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+19:28:15,046 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+19:28:15,046 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Manish_Katepallewar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

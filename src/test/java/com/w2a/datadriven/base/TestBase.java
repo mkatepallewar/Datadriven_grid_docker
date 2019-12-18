@@ -23,15 +23,13 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
+
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 import com.w2a.utilities.ExtentManager;
 
-import junit.framework.Assert;
 
 public class TestBase {
 
@@ -47,7 +45,7 @@ public class TestBase {
 	public Properties OR = new Properties();
 	public Properties Config = new Properties();
 	public FileInputStream fis;
-	public Logger log = Logger.getLogger("devpinoyLogger");
+	public Logger log=Logger.getLogger("devpinoyLogger");
 	public WebDriverWait wait;
 	public ExtentReports rep = ExtentManager.getInstance();
 	public ExtentTest test;
@@ -56,7 +54,25 @@ public class TestBase {
 
 	public static String screenShotFile;
 	public static String screenShotName;
-
+	public String browser;
+	
+	public void addLog(String message) {
+		log.debug("Thread : "+getThreadValue(dr.get())+" Browser : " + browser + " " + message);
+	}
+	
+	public String getThreadValue(Object value) {
+		
+		String text=value.toString();
+		String[] new_text=text.split(" ");
+		String text2=new_text[new_text.length-1].replace("(", "").replace(")", "");
+		
+		String[] newText2=text2.split("-");
+		String requiredText=newText2[newText2.length-1];
+		
+		return requiredText;
+		
+	}
+	
 	public void captureScreeShot() {
 
 		File srcFile = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
@@ -135,8 +151,9 @@ public class TestBase {
 	}
 
 	public void openBrowser(String browser) throws MalformedURLException {
-
+		this.browser=browser;
 		DesiredCapabilities cap = null;
+			
 		if (browser.equals("firefox")) {
 			cap = DesiredCapabilities.firefox();
 			cap.setBrowserName("firefox");
@@ -157,6 +174,9 @@ public class TestBase {
 				TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		getExtentTest().log(LogStatus.INFO, "Browser Opened Successfully " + browser);
+		
+		System.out.println("Thread value is : " + getThreadValue(dr.get()));
+		
 
 	}
 
@@ -196,6 +216,9 @@ public class TestBase {
 			getDriver().findElement(By.id(OR.getProperty(locator))).click();
 		}
 		getExtentTest().log(LogStatus.INFO, "Clicking " + OR.getProperty(locator));
+		
+		addLog("Clicking on an element : " +locator);
+		
 		}catch (Throwable t){
 			reportFailure("Failing while clicking on element " + locator);
 		}
@@ -212,6 +235,7 @@ public class TestBase {
 		}
 
 		getExtentTest().log(LogStatus.INFO, "Entering value  " + value);
+		addLog("Typing in an element : " +locator);
 	}catch(Throwable t){
 		reportFailure("Failing while typing on element " + locator);
 	}
