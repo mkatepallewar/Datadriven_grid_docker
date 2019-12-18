@@ -12,9 +12,9 @@ import com.w2a.utilities.DataProviders;
 import com.w2a.utilities.DataUtil;
 import com.w2a.utilities.ExcelReader;
 
-public class OpenAccountTest extends TestBase {
+public class OpenAccountTest extends AddCustomerTest  {
 	
-	@Test (dataProviderClass = DataProviders.class,dataProvider = "bankManagerDP" )
+	@Test (dataProviderClass = DataProviders.class,dataProvider = "bankManagerDP",groups = "accountCreation", dependsOnGroups = "customerCreation")
 	public void openAccountTest(Hashtable<String, String> data) throws MalformedURLException {
 		
 		super.setUp();
@@ -24,8 +24,12 @@ public class OpenAccountTest extends TestBase {
 		DataUtil.checkExecution("BankManagerSuite", "OpenAccountTest", data.get("Runmode"), excel);
 		openBrowser(data.get("browser"));
 		navigate("testsiteurl");
+		click("bmlBtn_CSS");
+		click("openaccount_CSS");
+		select("customer_CSS", data.get("customer"));
+		select("currency_CSS", data.get("currency"));
+		click("process_CSS");
 		reportPass("Open Account Test Pass");
-		
 	}
 	
 	@AfterMethod

@@ -17,7 +17,7 @@ import com.w2a.utilities.ExcelReader;
 
 public class AddCustomerTest extends TestBase {
 	
-	@Test (dataProviderClass = DataProviders.class,dataProvider = "bankManagerDP" )
+	@Test (dataProviderClass = DataProviders.class,dataProvider = "bankManagerDP", groups = "customerCreation" )
 	public void addCustomerTest(Hashtable<String, String> data) throws MalformedURLException {
 		
 		super.setUp();
@@ -27,6 +27,13 @@ public class AddCustomerTest extends TestBase {
 		DataUtil.checkExecution("BankManagerSuite", "AddCustomerTest", data.get("Runmode"), excel);
 		openBrowser(data.get("browser"));
 		navigate("testsiteurl");
+		click("bmlBtn_CSS");
+		click("addCustBtn_CSS");
+		type("firstName_CSS", data.get("firstname"));
+		type("lastName_XPATH", data.get("lastname"));
+		type("postCode_CSS", data.get("postcode"));
+		click("addBtn_CSS");
+		
 		reportPass("Add Customer Test Pass");
 		
 	}

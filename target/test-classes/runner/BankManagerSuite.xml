@@ -8,7 +8,7 @@
     </classes>
   </test> <!-- Test -->
   
-  <test thread-count="5" name="OpenAccountTest" >
+  <test thread-count="5" name="OpenAccountTest"  >
     <classes>
       <class name="com.w2a.suite.bankmanager.testcases.OpenAccountTest"/>
     </classes>

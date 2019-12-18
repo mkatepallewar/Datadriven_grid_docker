@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="BankManagerSuite" duration-ms="9728" started-at="2019-12-17T21:00:31 IST" finished-at="2019-12-17T21:00:41 IST">
+  <suite name="BankManagerSuite" duration-ms="51959" started-at="2019-12-18T11:43:53 IST" finished-at="2019-12-18T11:44:45 IST">
     <groups>
+      <group name="accountCreation">
+        <method signature="OpenAccountTest.openAccountTest(java.util.Hashtable)[pri:0, instance:com.w2a.suite.bankmanager.testcases.OpenAccountTest@1e9e725a]" name="openAccountTest" class="com.w2a.suite.bankmanager.testcases.OpenAccountTest"/>
+      </group> <!-- accountCreation -->
+      <group name="customerCreation">
+        <method signature="AddCustomerTest.addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.suite.bankmanager.testcases.AddCustomerTest@11e21d0e]" name="addCustomerTest" class="com.w2a.suite.bankmanager.testcases.AddCustomerTest"/>
+        <method signature="AddCustomerTest.addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.suite.bankmanager.testcases.OpenAccountTest@1e9e725a]" name="addCustomerTest" class="com.w2a.suite.bankmanager.testcases.AddCustomerTest"/>
+      </group> <!-- customerCreation -->
     </groups>
-    <test name="AddCustomertest" duration-ms="5377" started-at="2019-12-17T21:00:31 IST" finished-at="2019-12-17T21:00:37 IST">
+    <test name="AddCustomertest" duration-ms="11368" started-at="2019-12-18T11:43:53 IST" finished-at="2019-12-18T11:44:05 IST">
       <class name="com.w2a.suite.bankmanager.testcases.AddCustomerTest">
-        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.suite.bankmanager.testcases.AddCustomerTest@4148db48]" name="addCustomerTest" duration-ms="4914" started-at="2019-12-17T21:00:32 IST" data-provider="bankManagerDP" finished-at="2019-12-17T21:00:37 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{browser=firefox, postcode=X7878, Runmode=Y, lastname=k, firstname=jyoti}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addCustomerTest -->
-        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.suite.bankmanager.testcases.AddCustomerTest@4148db48]" name="addCustomerTest" duration-ms="3458" started-at="2019-12-17T21:00:32 IST" data-provider="bankManagerDP" finished-at="2019-12-17T21:00:35 IST">
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.suite.bankmanager.testcases.AddCustomerTest@11e21d0e]" name="addCustomerTest" duration-ms="7013" started-at="2019-12-18T11:43:54 IST" data-provider="bankManagerDP" finished-at="2019-12-18T11:44:01 IST">
           <params>
             <param index="0">
               <value>
@@ -29,19 +25,90 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomerTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.suite.bankmanager.testcases.AddCustomerTest@4148db48]" name="tearDown" is-config="true" duration-ms="306" started-at="2019-12-17T21:00:35 IST" finished-at="2019-12-17T21:00:36 IST">
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.suite.bankmanager.testcases.AddCustomerTest@11e21d0e]" name="addCustomerTest" duration-ms="10689" started-at="2019-12-18T11:43:54 IST" data-provider="bankManagerDP" finished-at="2019-12-18T11:44:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=firefox, postcode=X7878, Runmode=Y, lastname=k, firstname=jyoti}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.suite.bankmanager.testcases.AddCustomerTest@11e21d0e]" name="addCustomerTest" duration-ms="10899" started-at="2019-12-18T11:43:54 IST" data-provider="bankManagerDP" finished-at="2019-12-18T11:44:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=firefox, postcode=X7878, Runmode=Y, lastname=k, firstname=arnav}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.suite.bankmanager.testcases.AddCustomerTest@11e21d0e]" name="tearDown" is-config="true" duration-ms="316" started-at="2019-12-18T11:44:01 IST" finished-at="2019-12-18T11:44:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.suite.bankmanager.testcases.AddCustomerTest@4148db48]" name="tearDown" is-config="true" duration-ms="96" started-at="2019-12-17T21:00:37 IST" finished-at="2019-12-17T21:00:37 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.suite.bankmanager.testcases.AddCustomerTest@11e21d0e]" name="tearDown" is-config="true" duration-ms="173" started-at="2019-12-18T11:44:04 IST" finished-at="2019-12-18T11:44:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.suite.bankmanager.testcases.AddCustomerTest@11e21d0e]" name="tearDown" is-config="true" duration-ms="103" started-at="2019-12-18T11:44:05 IST" finished-at="2019-12-18T11:44:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.w2a.suite.bankmanager.testcases.AddCustomerTest -->
     </test> <!-- AddCustomertest -->
-    <test name="OpenAccountTest" duration-ms="4303" started-at="2019-12-17T21:00:37 IST" finished-at="2019-12-17T21:00:41 IST">
+    <test name="OpenAccountTest" duration-ms="40556" started-at="2019-12-18T11:44:05 IST" finished-at="2019-12-18T11:44:45 IST">
       <class name="com.w2a.suite.bankmanager.testcases.OpenAccountTest">
-        <test-method status="PASS" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.w2a.suite.bankmanager.testcases.OpenAccountTest@6e38921c]" name="openAccountTest" duration-ms="2764" started-at="2019-12-17T21:00:37 IST" data-provider="bankManagerDP" finished-at="2019-12-17T21:00:40 IST">
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.suite.bankmanager.testcases.OpenAccountTest@1e9e725a]" name="addCustomerTest" duration-ms="6383" started-at="2019-12-18T11:44:05 IST" data-provider="bankManagerDP" finished-at="2019-12-18T11:44:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=chrome, postcode=P6767, Runmode=Y, lastname=k, firstname=manish}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.suite.bankmanager.testcases.OpenAccountTest@1e9e725a]" name="addCustomerTest" duration-ms="9798" started-at="2019-12-18T11:44:05 IST" data-provider="bankManagerDP" finished-at="2019-12-18T11:44:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=firefox, postcode=X7878, Runmode=Y, lastname=k, firstname=arnav}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.suite.bankmanager.testcases.OpenAccountTest@1e9e725a]" name="addCustomerTest" duration-ms="9847" started-at="2019-12-18T11:44:05 IST" data-provider="bankManagerDP" finished-at="2019-12-18T11:44:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=firefox, postcode=X7878, Runmode=Y, lastname=k, firstname=jyoti}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.suite.bankmanager.testcases.OpenAccountTest@1e9e725a]" name="tearDown" is-config="true" duration-ms="105" started-at="2019-12-18T11:44:11 IST" finished-at="2019-12-18T11:44:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.suite.bankmanager.testcases.OpenAccountTest@1e9e725a]" name="tearDown" is-config="true" duration-ms="194" started-at="2019-12-18T11:44:15 IST" finished-at="2019-12-18T11:44:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.suite.bankmanager.testcases.OpenAccountTest@1e9e725a]" name="tearDown" is-config="true" duration-ms="170" started-at="2019-12-18T11:44:15 IST" finished-at="2019-12-18T11:44:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.w2a.suite.bankmanager.testcases.OpenAccountTest@1e9e725a]" name="openAccountTest" duration-ms="26212" depends-on-groups="customerCreation" started-at="2019-12-18T11:44:15 IST" data-provider="bankManagerDP" finished-at="2019-12-18T11:44:41 IST">
           <params>
             <param index="0">
               <value>
@@ -52,7 +119,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAccountTest -->
-        <test-method status="PASS" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.w2a.suite.bankmanager.testcases.OpenAccountTest@6e38921c]" name="openAccountTest" duration-ms="4191" started-at="2019-12-17T21:00:37 IST" data-provider="bankManagerDP" finished-at="2019-12-17T21:00:41 IST">
+        <test-method status="PASS" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.w2a.suite.bankmanager.testcases.OpenAccountTest@1e9e725a]" name="openAccountTest" duration-ms="30282" depends-on-groups="customerCreation" started-at="2019-12-18T11:44:15 IST" data-provider="bankManagerDP" finished-at="2019-12-18T11:44:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=Dollar, browser=firefox, Runmode=Y, customer=arnav k}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method status="PASS" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.w2a.suite.bankmanager.testcases.OpenAccountTest@1e9e725a]" name="openAccountTest" duration-ms="30390" depends-on-groups="customerCreation" started-at="2019-12-18T11:44:15 IST" data-provider="bankManagerDP" finished-at="2019-12-18T11:44:45 IST">
           <params>
             <param index="0">
               <value>
@@ -63,11 +141,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAccountTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.suite.bankmanager.testcases.OpenAccountTest@6e38921c]" name="tearDown" is-config="true" duration-ms="151" started-at="2019-12-17T21:00:40 IST" finished-at="2019-12-17T21:00:40 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.suite.bankmanager.testcases.OpenAccountTest@1e9e725a]" name="tearDown" is-config="true" duration-ms="98" started-at="2019-12-18T11:44:41 IST" finished-at="2019-12-18T11:44:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.suite.bankmanager.testcases.OpenAccountTest@6e38921c]" name="tearDown" is-config="true" duration-ms="91" started-at="2019-12-17T21:00:41 IST" finished-at="2019-12-17T21:00:41 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.suite.bankmanager.testcases.OpenAccountTest@1e9e725a]" name="tearDown" is-config="true" duration-ms="102" started-at="2019-12-18T11:44:45 IST" finished-at="2019-12-18T11:44:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.suite.bankmanager.testcases.OpenAccountTest@1e9e725a]" name="tearDown" is-config="true" duration-ms="104" started-at="2019-12-18T11:44:45 IST" finished-at="2019-12-18T11:44:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
