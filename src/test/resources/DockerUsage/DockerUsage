@@ -1,0 +1,15 @@
+Install Docker DTool Box
+Make sure you have Kitematic and Oracle VM Virtual Box manage
+
+Copy docker-compose.yml at location C:\Program Files\Docker Toolbox
+which as one grid, one firefox node and one chrome node
+To start these nod use command:
+
+docker-compose up -d
+
+
+If you want to have 3 node of chrome browser use command
+docker-compose scale nodechrome=3
+
+If you want to have 3 node of firefox browser use command
+docker-compose scale nodefirefox=2
